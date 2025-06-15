@@ -1,55 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Сучасна пекарня</title>
   </head>
   <body>
-    <header>
-      <img src="./images/logo.png" alt="logo" />
-      <nav>
-        <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+    <header class="header">
+      <nav class="menu">
+        <a href="./index.html" class="logo"
+          ><img src="./images/logo.png" alt="logo" width="114" height="56"
+        /></a>
+        <ul class="menu-nav">
+          <li>
+            <a href="#our_traditions" class="menu-nav-item active"
+              >Наші традиції</a
+            >
+          </li>
+          <li><a href="#chefs" class="menu-nav-item">Шеф-кухарі</a></li>
+          <li><a href="#formats" class="menu-nav-item">Формати</a></li>
+          <li><a href="#contacts" class="menu-nav-item">Контакти</a></li>
         </ul>
+        <button type="button" class="button-order">Замовити дзвінок</button>
       </nav>
-      <button type="button">Замовити дзвінок</button>
-
-      <img src="./images/background.png" alt="background" />
-      <h1>Сучасна пекарня</h1>
-      <div >
-        <ul class="advantages">
-          <li>Великий попит на ринку</li>
-          <li>Доступні за бюджетом формати</li>
-          <li>Досвідчена управлінська команда</li>
-        </ul>
-      </div>
     </header>
+    <section class="hero">
+      <img src="./images/header_bg.png" alt="header_bg" />
+      <h1><span class="active">Сучасна </span> пекарня</h1>
+      <ul class="advantages">
+        <li>Великий попит на ринку</li>
+        <li>Доступні за бюджетом формати</li>
+        <li>Досвідчена управлінська команда</li>
+      </ul>
+    </section>
     <main>
-      <section>
-        <div>
-          <h2>Новий формат традицій</h2>
+      <section id="our_traditions">
+        <div class="traditions">
+          <h2 class="formats">Новий формат традицій</h2>
           <p>
-            <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
-            зберегла смак традиційної випічки та натуральність інгредієнтів.
+            <span class="active">shop bakery</span> — це пекарня, яка взяла все
+            найкраще, і зберегла смак традиційної випічки та натуральність
+            інгредієнтів.
           </p>
           <p>
-            Ми працюємо як найвідоміші мережі—
-            <span> 5 хвилин і замовлення готове. </span>
-            А ще у наших пекарень стильний дизайн та висока якість
-            обслуговування!
+            Ми працюємо як найвідоміші мережі—<br />
+            <span class="active"> 5 хвилин і замовлення готове. </span><br />
+            А ще у наших пекарень стильний дизайн<br />
+            та висока якість обслуговування!
           </p>
         </div>
-        <img src="./images/baker.png" alt="baker" />
+        <img src="./images/baker.png" alt="baker" width="393" height="466" />
       </section>
-      <section>
-        <h2>Наші найкращі шеф -кухарі</h2>
-        <ul>
-          <li>
+      <section id="chefs">
+        <h2 class="chefs-title">Наші найкращі шеф -кухарі</h2>
+        <ul class="chefs-list">
+          <li class="chefs-list-items">
             <img src="./images/Nastya.png" alt="Nastya" />
             <h3>Настя</h3>
             <p>
@@ -57,7 +70,7 @@
               ідеї. Я випічу для вас найсмачніщі вироби!
             </p>
           </li>
-          <li>
+          <li class="chefs-list-items">
             <img src="./images/Vlad.png" alt="Vlad" />
             <h3>Влад</h3>
             <p>
@@ -68,46 +81,57 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Формати</h2>
-        <img src="./images/Arrow_back.png" alt="Arrow_back" />
-        <ul>
-          <li>
-            <img src="./images/kitchen_1.png" alt="kitchen_1" />
-            <h4>Walrus</h4>
-            <p>
-              Площа: до 120 м2 Меню: розширене меню Штат: 2 продавці-касири, 2
-              пекарі, 2 помічники пекаря, 2 офіціанти-різнороби Посадкові місця:
-              є
-            </p>
-          </li>
-          <li>
-            <img src="./images/kitchen_2.png" alt="kitchen_2" />
-            <h4>Horseshoe</h4>
-            <p>
-              Площа: до 25 м2 Меню: найпопулярніші позиції меню Штат: 2
-              продавці-касири, 2 пекарі, 1 помічник пекаря Посадкові місця:
-              відсутні
-            </p>
-          </li>
-          <li>
-            <img src="./images/kitchen_3.png" alt="kitchen_3" />
-            <h4>Handlebar</h4>
-            <p>
-              Площа: до 15 м2 Меню: найпопулярніші позиції меню Штат: 1
-              продавець, 1 пекар, 1 помічник пекаря Посадкові місця: відсутні
-            </p>
-          </li>
-        </ul>
-        <img src="./images/Arrow_forward.png" alt="Arrow_forward" />
+      <section id="formats">
+        <h2 class="formats-title">Формати</h2>
+        <div class="formats-slider">
+          <img
+            src="./images/Arrow_back.png"
+            alt="Arrow_back"
+            width="44"
+            height="44"
+          />
+          <ul class="formats-list">
+            <li>
+              <img src="./images/kitchen_1.png" alt="kitchen_1" />
+              <h4>Walrus</h4>
+              <p>
+                Площа: до 120 м2 Меню: розширене меню Штат: 2 продавці-касири, 2
+                пекарі, 2 помічники пекаря, 2 офіціанти-різнороби Посадкові
+                місця: є
+              </p>
+            </li>
+            <li>
+              <img src="./images/kitchen_2.png" alt="kitchen_2" />
+              <h4>Horseshoe</h4>
+              <p>
+                Площа: до 25 м2 Меню: найпопулярніші позиції меню Штат: 2
+                продавці-касири, 2 пекарі, 1 помічник пекаря Посадкові місця:
+                відсутні
+              </p>
+            </li>
+            <li>
+              <img src="./images/kitchen_3.png" alt="kitchen_3" />
+              <h4>Handlebar</h4>
+              <p>
+                Площа: до 15 м2 Меню: найпопулярніші позиції меню Штат: 1
+                продавець, 1 пекар, 1 помічник пекаря Посадкові місця: відсутні
+              </p>
+            </li>
+          </ul>
+          <img
+            src="./images/Arrow_forward.png"
+            alt="Arrow_forward"
+            width="44"
+            height="44"
+          />
+        </div>
       </section>
       <section>
         <div>
           <h2>Приєднуйся до мережі пекарень</h2>
           <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-          <form action="">
-            <label for=""></label>
-            <input type="text" placeholder="Ім’я" />
+          <form>
+            <input type="text" placeholder="Ім'я" />
             <input type="tel" name="phone" id="phone" placeholder="Телефон" />
             <input
               type="email"
@@ -124,8 +148,8 @@
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20497.540478167!2d36.220854349999996!3d50.045224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a419c1a7e145%3A0x6ad4660106a34a69!2z0J_QvtCx0LXQtNCw!5e0!3m2!1sru!2sas!4v1750009383460!5m2!1sru!2sas"
-          width="600"
-          height="450"
+          width="603"
+          height="595"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
@@ -138,9 +162,9 @@
       <img src="./images/logo.png" alt="logo" />
       <ul>
         <li><a href="#">Франшиза</a></li>
-        <li><a href="#">Наші традиції</a></li>
-        <li><a href="#">Формати</a></li>
-        <li><a href="#">Контакти</a></li>
+        <li><a href="#our_traditions">Наші традиції</a></li>
+        <li><a href="#formats">Формати</a></li>
+        <li><a href="#contacts">Контакти</a></li>
       </ul>
       <ul>
         <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
@@ -150,24 +174,24 @@
             >Україна, м. Київ, вул. Січових Стрільців 54</a
           >
         </li>
-        <ul>
-          <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            ></svg>
-          </li>
-          <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            ></svg>
-          </li>
-        </ul>
+      </ul>
+      <ul>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          ></svg>
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          ></svg>
+        </li>
       </ul>
       <ul>
         <li>
@@ -175,7 +199,7 @@
             >Політика конфіденційності
           </a>
         </li>
-        <li><p>© 2022 Дані захищені</p></li>
+        <li><p>&copy; 2022 Дані захищені</p></li>
       </ul>
     </footer>
   </body>

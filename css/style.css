@@ -1,15 +1,137 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-li{list-style: none;}
-body{
-    background-color: #E4E4E4;
+li {
+  list-style: none;
 }
-.advantages{
-    display: flex;
-    justify-content: space-between;
-    background-color: #819B57;
-    width: 1440px;
-    height: 62px;
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #e4e4e4;
+  color: #faf4ea;
+}
+h1 {
+  font-size: 128px;
+}
+a.active,
+.active {
+  color: #819b57;
+}
+.header {
+  position: absolute;
+  top: 32px;
+  width: 1250px;
+  height: 59px;
+  padding-left: 103px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
+.menu-nav {
+  display: flex;
+  gap: 64px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.menu-nav-item {
+  color: #faf4ea;
+}
+.button-order {
+  width: 238px;
+  height: 59px;
+  background-color: #819b57;
+  color: #faf4ea;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.hero {
+  /* background-image: url("./images/header_bg.png"); */
+  /* background-size: cover; */
+  padding-bottom: 48px;
+}
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #819b57;
+  width: 1440px;
+  height: 62px;
+}
+#our_traditions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1205px;
+  margin-left: 100px;
+  color: #31261a;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.traditions {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  justify-content: space-between;
+  align-items: center;
+}
+.formats {
+  color: #31261a;
+  font-size: 64px;
+}
+
+#chefs {
+  width: 1259px;
+  margin: 0 auto;
+  color: #31261a;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.chefs-title {
+  font-size: 64px;
+  color: #31261a;
+  text-align: center;
+}
+.chefs-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.chefs-list-items {
+  display: flex;
+  flex-direction: row;
+  width: 605px;
+}
+#formats {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.formats-title {
+  font-size: 64px;
+  color: #31261a;
+  text-align: center;
+}
+.formats-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.formats-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

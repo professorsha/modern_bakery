@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{list-style: none;}
+body{
+    background-color: #E4E4E4;
+}
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    background-color: #819B57;
+    width: 1440px;
+    height: 62px;
+}

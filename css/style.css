@@ -79,16 +79,26 @@ a.active,
   padding-bottom: 48px;
 }
 .traditions {
-  width: 530px;
+  width: 580px;
+  height: 466px;
   display: flex;
   flex-direction: column;
   gap: 42px;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 52px;
 }
 .formats {
   color: #31261a;
   font-size: 64px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.traditions-text{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 #chefs {
@@ -102,6 +112,7 @@ a.active,
   font-size: 64px;
   color: #31261a;
   text-align: center;
+  padding-bottom: 80px;
 }
 .chefs-list {
   display: flex;
@@ -124,14 +135,59 @@ a.active,
   font-size: 64px;
   color: #31261a;
   text-align: center;
+  padding-bottom: 80px;
 }
 .formats-slider {
+  width: 1087px;
   display: flex;
   flex-direction: row;
+  gap: 32px;
+  flex-wrap: nowrap;
+  align-items: center;
   justify-content: space-between;
 }
 .formats-list {
   display: flex;
   flex-direction: row;
+  gap: 20px;
   justify-content: space-between;
+}
+#order {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  width: 1204px;
+  margin: 0 auto;
+}
+.form-order {
+  width: 605px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.form-order input {
+  border: 1px solid #a18268;
+  border-radius: 8px;
+  padding: 16px 42px;
+}
+.order-call {
+  width: 605px;
+}
+.order-title {
+  font-size: 64px;
+  color: #31261a;
+  padding-bottom: 16px;
+}
+.order {
+  color: #465929;
+  font-size: 18;
+  font-weight: normal;
+  padding-bottom: 42px;;
+}
+.private-policy{
+    color: #31261A;
+    font-size: 12px;
 }
